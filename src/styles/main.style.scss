@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  External
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@import '~reset-css/reset.css';
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  Variables
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+$primary_color: #68b233; // Kodify Color ;)
+$secondary_color: #dddddd;
+
+$sidebar_width: 35%;
+$new_message_input_height: 80px;
+
+$mobile_breakpoint: 600px;
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  Project
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@import './global.styles.scss';
+@import './main-layout.styles.scss';
+@import './users-list.styles.scss';
+@import './messages-list.styles.scss';
+@import './new-message-input.styles.scss';
+@import './animations.styles.scss';
